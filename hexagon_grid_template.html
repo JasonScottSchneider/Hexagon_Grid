@@ -1,7 +1,9 @@
-<html lang="en" class=""><head>
+<html lang="en" class="">
+	
+<head>
 
-  <meta charset="UTF-8">
-  <title>Hexagon Template Demo</title>
+	<meta charset="UTF-8">
+	<title>Hexagon Template Demo</title>
 
 	<style>
 		body {
@@ -72,11 +74,8 @@
 	];
 
 	let n_cols_max = n_cols_min + 1, n_cols_sum = n_cols_max + n_cols_min;
-	console.log(n_cols_max);
 	let n = Math.ceil(.5*n_rows)*n_cols_min + Math.floor(.5*n_rows)*n_cols_max;
-	console.log(n);
 	let ni = imgs.length;
-	console.log(ni);
 
 	document.body.style.cssText += "--n-rows: "+n_rows+"; --n-cols: "+(2*n_cols_max)+";";
 
